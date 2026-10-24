@@ -1,0 +1,91 @@
+.stat-card {
+    background: #F1F1F1;
+    padding: 1.5rem;
+    border-radius: 12px;
+    min-width: 180px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.stat-card strong {
+    font-size: 16px;
+    color: #333;
+}
+.stat-card p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0.5rem 0 0;
+}
+
+.filter-form {
+    margin-bottom: 1.5rem;
+}
+.filter-form label {
+    margin-right: 0.5rem;
+    font-weight: 500;
+}
+.filter-form select,
+.filter-form input[type="date"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+.filter-form button {
+    padding: 0.5rem 1rem;
+    background: #0A2647;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.filter-form button:hover {
+    background: #144272;
+}
+
+.alertes-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.alertes-table thead {
+    background-color: #0A2647;
+    color: white;
+}
+.alertes-table th, .alertes-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+}
+.alertes-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    padding: 0.4rem 0.8rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.alerte-details p {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    white-space: pre-wrap;
+}
+
+.alerte-details h3 {
+    margin-top: 2rem;
+    color: #0A2647;
+}
